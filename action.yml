@@ -1,0 +1,16 @@
+name: 'Obfuscate'
+description: 'Obfuscates a Javascript file'
+inputs:
+  path:  # id of input
+    description: 'Path of file to obfuscate'
+    required: true
+  outputPath:
+    description: 'Path of file to output, if left empty, will overwrite the original file'
+    required: false
+  obfuscationPreset:
+    description: 'Preset to use for obfuscation, options are defualt, low-obfuscation, medium-obfuscation, and high-obfuscation.'
+    required: false
+    default: 'default'
+runs:
+  using: 'node20'
+  main: 'index.js'
