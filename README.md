@@ -6,7 +6,7 @@ This action will take an input javascript file, and spit out an obfuscated one, 
 ### Quick and dirty how-to
 
 ``` yml
-- uses: ninjamuffin99/js-obfuscate-action@v1
+- uses: ninjamuffin99/js-obfuscate-action@master
   with:
     path:
         "path/to/file"
