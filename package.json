@@ -4,7 +4,7 @@
   "description": "Github action to obfuscate Javascript code, using `javascript-obfuscator`",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,15 +16,13 @@
     "url": "https://github.com/ninjamuffin99/js-obfuscate-action/issues"
   },
   "homepage": "https://github.com/ninjamuffin99/js-obfuscate-action#readme",
-  "dependencies": {
+  "devDependencies": {
     "@actions/core": "^1.10.1",
     "@actions/github": "^6.0.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-n": "^16.6.2",
     "eslint-plugin-promise": "^6.1.1",
-    "javascript-obfuscator": "^4.1.0"
-  },
-  "devDependencies": {
+    "javascript-obfuscator": "^4.1.0",
     "eslint": "^8.56.0",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-prettier": "^9.1.0",

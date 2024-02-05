@@ -12,5 +12,12 @@ inputs:
     required: false
     default: 'default'
 runs:
-  using: 'node20'
-  main: 'index.js'
+  using: composite
+  steps:
+    - uses: actions/setup-node@v4.0.1
+      with: 
+        node-version: '21'
+    - run: npm install
+      shell: bash
+    - run: node index.js
+      shell: bash
