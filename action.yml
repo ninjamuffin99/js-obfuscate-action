@@ -1,5 +1,8 @@
 name: 'Javascript obfuscate'
 description: 'Obfuscates a Javascript file'
+branding:
+  icon: scissors
+  color: black
 inputs:
   path:  # id of input
     description: 'Path of file to obfuscate'
