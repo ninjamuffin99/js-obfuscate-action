@@ -1,4 +1,4 @@
-name: 'Obfuscate'
+name: 'Javascript obfuscate'
 description: 'Obfuscates a Javascript file'
 inputs:
   path:  # id of input
