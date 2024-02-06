@@ -1,4 +1,4 @@
-const eslintPluginPrettierRecommended = require("eslint-plugin-prettier/recommended");
+import { eslintPluginPrettierRecommended } from "eslint-plugin-prettier/recommended";
 
 module.exports = {
 	env: {
