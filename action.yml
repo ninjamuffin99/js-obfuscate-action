@@ -12,5 +12,5 @@ inputs:
     required: false
     default: 'default'
 runs:
-  using: 'node16'
-  main: './index.js'
+  using: bun1
+  main: index.ts
